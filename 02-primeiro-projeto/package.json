@@ -1,0 +1,11 @@
+{
+  "name": "primeiro-projeto",
+  "version": "1.0.0",
+  "description": "Usando Npm para inicializar o projeto",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vinicius",
+  "license": "ISC"
+}
