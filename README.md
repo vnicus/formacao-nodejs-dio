@@ -8,7 +8,7 @@ Cada projeto está organizado em pastas numeradas, e pode ser acessado individua
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/seu-repo-nodejs.git
+   git clone https://github.com/vnicus/formacao-nodejs-dio.git
 1. Acesse a pasta do projeto desejado:
    ```bash
     cd 01-primeiro-projeto
