@@ -1,6 +1,10 @@
-//mapeando o que o carrinho pode fazer, os casos de uso da entidade 
+//verificação se há carrinho existente
+async function cartIsinitinal(userCart) {
+    if(!userCart) return;
 
-//quais acoes meu carrinho pode fazer?
+    console.log("Welcome to the your Shopee Cart! 🛒");
+}
+
 
 //add item
 async function addItem(userCart, item) {
@@ -35,7 +39,7 @@ async function removeItem(userCart, item) {
 //calcular total
 async function calculateTotal(userCart) {
 
-    // o reduce é paracido um foreach, ele precisa de tres parametros, sendo o primeiro param sendo para salvar o valor, o segundo sendo o param q fica observado o valor de cada casa e o ultimo define o valor inicial
+    // o reduce é paracido um foreach, ele precisa de tres parametros, o primeiro paramentro sendo para salvar o valor Atual, o segundo paramentro sendo para ficar observado o valor de cada Elemento e o ultimo define o valor inicial
 
     const result = userCart.reduce((total, item) => total + item.subtotal(), 0);
 
@@ -52,6 +56,7 @@ async function displayCart(userCart) {
 }
 
 export {
+    cartIsinitinal,
     addItem,
     calculateTotal,
     deleteItem,

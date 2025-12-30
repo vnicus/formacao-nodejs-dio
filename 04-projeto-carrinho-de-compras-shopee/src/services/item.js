@@ -1,6 +1,4 @@
-//mapendo casos de uso dositens
-
-//criar item com subtotal certo
+//criar item com função de subtotal embutido
 async function createItem(name, price, quantity) {
 
     return {
